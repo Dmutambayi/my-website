@@ -23,6 +23,14 @@ input, textarea { width: 90%; padding: 10px; margin: 10px 0; border: 1px solid #
 <input type="text" name="nom" placeholder="Your name" required>
 <input type="email" name="email" placeholder="Your email" required>
   <input type="number" name="number" placeholder="Your phone number" required>
+  <label>choose a date:</label>
+<input type="date" name="date-rdv" required>
+
+<label>How do you want to talk?</label>
+<select name="mode-contact" required style="width:90%; padding:10px; margin:10px 0; border:1px solid #ddd; border-radius:5px;">
+<option value="">-- Choose an option --</option>
+<option value="Appel téléphonique">Phone call</option>
+<option value="WhatsApp
 <textarea name="message" placeholder="Leave a message"></textarea><br>
 <button type="submit">Envoyer</button>
 </form>
